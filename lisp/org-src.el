@@ -40,6 +40,7 @@
 (require 'org-compat)
 (require 'org-keys)
 (require 'sh-script)
+(require 'compat)
 
 (declare-function org--get-expected-indentation "org" (element contentsp))
 (declare-function org-mode "org" ())
